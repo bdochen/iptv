@@ -1,0 +1,20 @@
+js_config:
+- Container:
+  - []
+  Env: jd_liveLottery_ids
+  KeyWord:
+  - - jd_liveLottery_ids
+  Name: 京东直播互动抽奖
+  Script: jd_liveLottery.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxCartKoi_activityId
+  KeyWord:
+  - - jd_wxCartKoi_activityId
+  - - K_WX_CARTKOI_URL
+  Name: 幸运抽奖
+  Script: jd_wxCartKoi.js
+  TimeOut: 0
+  Wait: 2
